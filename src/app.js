@@ -8,7 +8,7 @@ hbs.registerPartials(path.join(__dirname,'views/partials'));
 app.set('view engine' , 'hbs');
 
 app.get('/', (req, res) => {
-//res.send("Strona działa!")//
+
 res.render('index' , {});
 });
 
